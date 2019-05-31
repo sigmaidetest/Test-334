@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "85793978-9676-4da4-9d59-e040635cef63": {
+        "id": "85793978-9676-4da4-9d59-e040635cef63",
+        "parent": null,
+        "name": "Test-334",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "2b22846d-d5dd-4326-829c-7c212e2240f4",
+          "0281754f-fbb4-49c2-9b89-dd86212ceea6"
+        ],
+        "isRemovable": false,
+        "filePath": "Test-334"
+      },
+      "2b22846d-d5dd-4326-829c-7c212e2240f4": {
+        "id": "2b22846d-d5dd-4326-829c-7c212e2240f4",
+        "parent": "85793978-9676-4da4-9d59-e040635cef63",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test-334/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "0281754f-fbb4-49c2-9b89-dd86212ceea6": {
+        "id": "0281754f-fbb4-49c2-9b89-dd86212ceea6",
+        "parent": "85793978-9676-4da4-9d59-e040635cef63",
+        "name": "util.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test-334/util.js",
+        "code": "module.exports = {\n    addNumbers = (num1, num2) => (num1 + num2);\n};"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "85793978-9676-4da4-9d59-e040635cef63",
+    "openFiles": [
+      "2b22846d-d5dd-4326-829c-7c212e2240f4",
+      "0281754f-fbb4-49c2-9b89-dd86212ceea6"
+    ],
+    "currentFileId": "0281754f-fbb4-49c2-9b89-dd86212ceea6",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Test-334",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1559294932408
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Test-334",
+      "url": "https://github.com/sigmaidetest/Test-334"
+    }
+  }
+}
