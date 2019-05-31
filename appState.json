@@ -42,7 +42,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "Test-334/util.js",
-        "code": "module.exports = {\n    addNumbers = (num1, num2) => (num1 + num2);\n};"
+        "code": "module.exports = {\n    addNumbers = (num1, num2) => (num1 + num2)\n};"
       }
     },
     "deletedFiles": [],
@@ -78,7 +78,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1559294932408
+    "lastSave": 1559294977715
   },
   "VCS_STATE": {
     "provider": "GitHub",
